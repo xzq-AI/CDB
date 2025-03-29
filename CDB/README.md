@@ -2,6 +2,11 @@
 Herbal Carbohydrate Database 
 # GlycoDraw Tool Integration
 
+## Data Source
+
+- [ CSDB ](http://csdb.glycoscience.ru/database/)
+- [ Glytoucan ](https://glytoucan.org)
+
 ## Tool Source
 The `GlycoDraw` tool utilized in this project is sourced from the `glycowork` library. For more details, refer to the following publications:
 
