@@ -20,7 +20,7 @@ To use GlycoDraw for generating glycan structure diagrams:
 from glycowork.motif.draw import *
 
 # Example usage
-GlycoDraw("Mana1-6(Mana1-3)Manb1-4GlcNAcb1-4GlcNAcb", filepath="output_file.png")
+GlycoDraw("Mana1-6(Mana1-3)Manb1-4GlcNAcb1-4GlcNAcb")
 ```
 ## Handling Unclosed Parentheses in IUPAC Strings
 
@@ -45,3 +45,5 @@ def remove_unclosed_parentheses_and_suffix(s):
     return ''.join(result)
 ```
 This function helps ensure that your IUPAC strings are properly formatted before processing with  `GlycoDraw` .
+
+![本地图片](8d9cee810e3afe05d6e31dcd318969ec.svg)
